@@ -1,0 +1,10 @@
+Made by: htcdevk0
+
+If you are reading this after the second commit, this has been solved, so you can delete this!
+
+Tutorial:
+
+- 1. After building, you might receive an exit code like this: code -1073741515 (0xc0000135).
+- 2 [Final]. Go to your reliable Vertx3D folder and copy the binaries to your x64 Debug/Release folder.
+
+Have fun!

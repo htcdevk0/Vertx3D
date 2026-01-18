@@ -1,0 +1,21 @@
+Made by: htcdevk0
+
+Tutorial:
+
+- 1. Download the pre-compiled binaries of Vertx3D [https://github.com/htcdevk0/Vertx3D].
+- 2. Move to a reliable folder on your PC.
+- 3. Open Visual Studio and create a blank C++ project.
+- 4. Go to your solution properties, open the C++ section -> go to the Language subsection and select C++ Language Standard "Preview - ISO C++23 Standard (/std:c++23preview)".
+- 5. Stay in the C++ section, select the General subsection -> Additional Include Directories, and open the Vertx3D folder on your PC, then select the `include` folder.
+- 6. Go to the Linker section, General subsection -> Additional Library Directories, and select the `Lib` folder in the Vertx3D folder on your PC (don't forget the third-party lib files!).
+- 7 [Final]. Stay in the Linker section, Input subsection -> Additional Dependencies, and write the following:
+    [
+        glfw3.lib
+        opengl32.lib
+        user32.lib
+        gdi32.lib
+        shell32.lib
+        vertx3d.lib
+    ]
+
+Have fun!

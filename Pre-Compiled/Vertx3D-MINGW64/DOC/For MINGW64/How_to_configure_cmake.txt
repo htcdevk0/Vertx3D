@@ -1,0 +1,21 @@
+Made by: htcdevk0
+
+Dependencies needed:
+
+- 1. OpenGL – The system graphics library required for rendering.
+
+- 2. GLFW – Windowing and input library (thirdparty/glfw).
+
+- 3. GLAD – OpenGL loader (thirdparty/glad).
+
+- 4. STB – Image loading library (thirdparty/stb).
+
+- 5. FreeType2 – Font rendering library (ft2build, freetype2).
+
+- 6. GDI32 – Windows GUI library (system library, linked automatically).
+
+- 7. WinMM – Windows Multimedia library (for timers, audio, system functions).
+
+- 8. OpenGL32 – Windows OpenGL system library.
+
+Read the CMake/Expected_organization.txt to see more...

@@ -1,0 +1,16 @@
+Made by: htcdevk0
+
+YourProject/
+build/ (Your build)
+Vertx3D/
+    include/ (Headers)
+    bin/ (Binaries)
+    thirdparty/ (Dependencies)
+        GLFW/ (glfw3)
+        glad/ (glad)
+        ft2build/ (ft2build)
+        stb/ (stb)
+src/
+    main.cpp (Or another name)
+    ...
+CMakeLists.txt
